@@ -1,0 +1,185 @@
+html,
+    body {
+        height: 100%;
+        margin: 0px;
+ }
+
+
+
+.div_header{
+ display: flex;
+ justify-content:space-between;
+ list-style-type: none;
+
+ align-items: center;
+ background-color:rgba(120, 66, 18);
+ color: rgba(252, 243, 207);
+ height: 80px;
+ font-family: 'Ms Madi', cursive;
+
+ 
+    
+}
+
+.div_header li{
+
+    font-size: 30px;
+}
+li:hover{
+    color: red;
+    cursor:pointer;
+
+}
+
+
+.header_button{
+    display: flex;
+    gap: 150px;
+    padding-right: 300px;
+
+}
+.header_name{
+padding-left: 100px;
+    
+}
+
+
+#content{
+    display: flex;
+     flex-direction: column;
+     height: 100%;
+ 
+
+
+}
+
+.main-content{
+    flex-grow: 1; 
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-image : url('../image/beach.jpg');
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;              
+
+}
+.main_write{
+text-align: center;
+    
+font-family: 'Lobster', cursive;
+    color: rgba(252, 243, 207);
+
+    background-color: rgba(0, 0, 0,0.2);
+    border-radius: 25px;
+    
+}
+.main_write h1{
+    font-size: 50px;;
+}
+.main_write p{
+    font-size: 30px;;
+}
+
+
+.main-menu{
+    background-color: rgb(238, 227, 203);
+    flex-grow: 1; 
+   
+
+}
+.menu-header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+    width: 70%;
+}
+
+.item{
+    background-color: rgba(120, 66, 18,0.3);
+    padding: 20px;;
+    padding-bottom: 0px;;
+    margin: 30px;;
+    border-radius: 25px;;
+    justify-content: center;
+    text-align: center;
+
+}
+.item h1{
+    font-family: 'Libre Baskerville', serif;
+}
+.item p{
+    font-family: 'Libre Baskerville', serif;
+    color: rgba(120, 66, 18);
+    font-size: 25px;
+}
+.item img{
+    width: 500px;;
+    height: 400px;
+    
+}
+.main-contact{
+    background-color: rgb(238, 227, 203);
+    flex-grow: 1; 
+}
+
+.contact-header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contact-item{
+    background-color: rgb(238, 227, 203);
+    flex-grow: 1; 
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+  
+}
+
+.contact-header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+}
+.contact-content{
+    
+    display: flex;
+    background-color: rgb(156, 100, 12,0.8);
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 25px;
+    
+    
+    
+    
+}
+
+.b1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+   
+}
+.small{
+    width: 30px;
+    
+}
